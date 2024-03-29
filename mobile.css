@@ -1,0 +1,323 @@
+@media screen and (max-width:1388px) {
+    .info {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .date {
+        display: none;
+    }
+
+    .date__1388 {
+        display: block;
+    }
+
+    .rapprochement h2 {
+        margin-top: 50px;
+    }
+
+    .rapprochement h1 {
+        margin-top: 68px;
+    }
+
+    .rapprochement__card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .form_radio {
+        margin-top: 98px;
+    }
+
+    .wrapper {
+        display: block;
+        margin-top: 71px;
+    }
+
+    .news__card {
+        display: none;
+    }
+
+    .team {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .team__text p {
+        text-align: justify;
+    }
+
+    #new_news {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:823px) {
+    body {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .nav1 {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav__line {
+        height: 1px;
+        background-color: rgb(193, 193, 193);
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .nav__href {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav__href a {
+        color: black;
+        text-decoration-line: none;
+        font-size: 32px;
+    }
+
+    .container-fluid {
+        width: 90px;
+        margin: 0px;
+    }
+
+    .header__logo__ {
+        width: 65px;
+        height: 65px;
+    }
+
+    .header__logo__ img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar-toggler-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .rapprochement__wrapper {
+        display: block;
+    }
+
+    .rapprochement__card {
+        display: none;
+    }
+
+    .rapprochement__wrapper .rapprochement__controls {
+        margin-top: 80px;
+    }
+
+    .circle__line {
+        display: none;
+    }
+
+    .circle {
+        flex-direction: column;
+        gap: 14px;
+        margin-top: 50px;
+    }
+
+    .circle__step {
+        flex-direction: row;
+    }
+
+    .circle__step-text p {
+        text-align: left;
+        font-size: 30px;
+    }
+
+    #arrow1 {
+        display: none;
+    }
+
+    .rapprochement__wrapper {
+        margin-top: 50px;
+    }
+
+    .info__text-stroki {
+        display: none;
+    }
+
+    .rapprochement__card-text p {
+        font-size: 26px;
+    }
+
+    .header {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:660px) {
+    .info__img {
+        width: 362px;
+        height: 352px;
+    }
+
+    .info__text-zaglavie h1 {
+        font-size: 34px;
+    }
+
+    .rapprochement h2 {
+        font-size: 38px;
+    }
+
+    .slider {
+        width: 482px;
+        height: 630px;
+    }
+
+    .news__card-item {
+        width: 482px;
+        height: 630px;
+    }
+
+    .news__card-text h1 {
+        font-size: 28px;
+    }
+
+    .news__card-text p {
+        font-size: 20px;
+    }
+
+    .news__card-text {
+        gap: 15px;
+    }
+
+    .news__card-href a {
+        font-size: 28px;
+    }
+
+    #new_news {
+        font-size: 42px;
+        margin-top: 40px;
+    }
+
+    .wrapper {
+        margin-top: 40px;
+    }
+
+    .team__text p {
+        text-align: left;
+        font-size: 26px;
+    }
+
+    .href-VK {
+        gap: 10px;
+    }
+
+    .team__logo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 20%;
+    }
+
+    .team__logo img {
+        width: 70%;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .href-VK__text a {
+        font-size: 26px;
+    }
+
+    .href-VK__img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .QR-Code__img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .QR-Code button {
+        width: 300px;
+        margin-top: 60px;
+    }
+
+    .slider {
+        width: 382px;
+        height: 800px;
+    }
+
+    .news__card-item {
+        width: 382px;
+        height: 800px;
+    }
+
+    .news__card-text h1 {
+        font-size: 24px;
+    }
+
+    .team__text p {
+        font-size: 24px;
+    }
+
+    .rapprochement h1 {
+        font-size: 38px;
+    }
+
+    .info__text-zaglavie h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .slider {
+        width: 330px;
+        height: 800px;
+    }
+
+    .news__card-item {
+        width: 330px;
+        height: 800px;
+    }
+
+    .news__card-text h1 {
+        font-size: 22px;
+    }
+
+    .news__card-text p {
+        font-size: 17px;
+    }
+
+    .team__text p {
+        font-size: 24px;
+    }
+
+    .href-VK__text a {
+        font-size: 22px;
+    }
+
+    .href-VK__img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .info__img {
+        width: 312px;
+        height: 302px;
+    }
+
+}
